@@ -1,0 +1,121 @@
+{
+  "data_statistics": {
+    "Car": {
+      "count": 1899,
+      "avg_depth": 28.177593470247498,
+      "avg_height": 65.33078462348605,
+      "avg_truncation": 0.0742548709847288,
+      "occlusion_dist": {
+        "fully_visible": 899,
+        "partly_occluded": 537,
+        "largely_occluded": 404
+      }
+    },
+    "Pedestrian": {
+      "count": 285,
+      "avg_depth": 18.548491228070173,
+      "avg_height": 99.35828070175438,
+      "avg_truncation": 0.037614035087719294,
+      "occlusion_dist": {
+        "fully_visible": 168,
+        "partly_occluded": 59,
+        "largely_occluded": 54
+      }
+    },
+    "Cyclist": {
+      "count": 122,
+      "avg_depth": 25.428606557377048,
+      "avg_height": 74.75237704918032,
+      "avg_truncation": 0.04008196721311475,
+      "occlusion_dist": {
+        "fully_visible": 75,
+        "partly_occluded": 16,
+        "largely_occluded": 4
+      }
+    }
+  },
+  "evaluation_results": {
+    "kitti_official": [
+      "Car AP@0.70, 0.70, 0.70:\nbbox AP:33.8850, 28.3903, 31.3377\nbev  AP:11.8007, 13.4083, 14.5044\n3d   AP:5.2342, 5.7285, 6.0216\naos  AP:33.87, 28.38, 31.32\nCar AP_R40@0.70, 0.70, 0.70:\nbbox AP:28.6844, 23.9080, 27.5288\nbev  AP:3.7232, 5.9191, 6.7346\n3d   AP:1.1454, 1.9444, 2.4832\naos  AP:28.67, 23.89, 27.51\nCar AP@0.70, 0.50, 0.50:\nbbox AP:33.8850, 28.3903, 31.3377\nbev  AP:28.6599, 29.9744, 32.9490\n3d   AP:21.8750, 26.4703, 29.6208\naos  AP:33.87, 28.38, 31.32\nCar AP_R40@0.70, 0.50, 0.50:\nbbox AP:28.6844, 23.9080, 27.5288\nbev  AP:21.7368, 27.3060, 31.1232\n3d   AP:15.8203, 20.3325, 24.0311\naos  AP:28.67, 23.89, 27.51\nPedestrian AP@0.50, 0.50, 0.50:\nbbox AP:34.2803, 34.9067, 37.0793\nbev  AP:13.5624, 15.1500, 16.4763\n3d   AP:4.6334, 6.6507, 5.0993\naos  AP:34.26, 34.89, 37.05\nPedestrian AP_R40@0.50, 0.50, 0.50:\nbbox AP:35.8725, 34.7827, 33.7195\nbev  AP:11.5412, 13.0301, 13.1979\n3d   AP:3.8111, 4.8175, 4.6608\naos  AP:35.85, 34.76, 33.69\nPedestrian AP@0.50, 0.25, 0.25:\nbbox AP:34.2803, 34.9067, 37.0793\nbev  AP:44.9659, 47.6708, 42.7058\n3d   AP:35.1731, 37.7771, 38.9866\naos  AP:34.26, 34.89, 37.05\nPedestrian AP_R40@0.50, 0.25, 0.25:\nbbox AP:35.8725, 34.7827, 33.7195\nbev  AP:41.9976, 44.4284, 44.5426\n3d   AP:33.0305, 35.5161, 35.4267\naos  AP:35.85, 34.76, 33.69\nCyclist AP@0.50, 0.50, 0.50:\nbbox AP:41.3375, 23.9800, 24.9267\nbev  AP:20.2020, 17.2393, 17.9783\n3d   AP:7.0214, 7.8600, 8.0769\naos  AP:41.31, 23.96, 24.91\nCyclist AP_R40@0.50, 0.50, 0.50:\nbbox AP:38.9654, 24.9585, 25.9344\nbev  AP:18.8889, 17.7676, 18.5261\n3d   AP:5.6748, 6.7296, 7.0481\naos  AP:38.94, 24.94, 25.92\nCyclist AP@0.50, 0.25, 0.25:\nbbox AP:41.3375, 23.9800, 24.9267\nbev  AP:57.1565, 59.5400, 59.9055\n3d   AP:52.2491, 53.3768, 53.9259\naos  AP:41.31, 23.96, 24.91\nCyclist AP_R40@0.50, 0.25, 0.25:\nbbox AP:38.9654, 24.9585, 25.9344\nbev  AP:58.1528, 63.0382, 63.4628\n3d   AP:49.2251, 52.3624, 52.9218\naos  AP:38.94, 24.94, 25.92\n",
+      {
+        "Car_aos/easy_R40": 28.66850436696577,
+        "Car_aos/moderate_R40": 23.89405747046244,
+        "Car_aos/hard_R40": 27.512058257309086,
+        "Car_3d/easy_R40": 1.1453823953823952,
+        "Car_3d/moderate_R40": 1.9443540106684027,
+        "Car_3d/hard_R40": 2.483213703960646,
+        "Car_bev/easy_R40": 3.723165076448974,
+        "Car_bev/moderate_R40": 5.919066792220022,
+        "Car_bev/hard_R40": 6.734639147261206,
+        "Car_image/easy_R40": 28.684430215066175,
+        "Car_image/moderate_R40": 23.908008024123088,
+        "Car_image/hard_R40": 27.528839165743086,
+        "Pedestrian_aos/easy_R40": 35.85215656546333,
+        "Pedestrian_aos/moderate_R40": 34.76427639025611,
+        "Pedestrian_aos/hard_R40": 33.69158495486483,
+        "Pedestrian_3d/easy_R40": 3.811085992028889,
+        "Pedestrian_3d/moderate_R40": 4.817460253898556,
+        "Pedestrian_3d/hard_R40": 4.660784992119325,
+        "Pedestrian_bev/easy_R40": 11.54122215051613,
+        "Pedestrian_bev/moderate_R40": 13.030056843030025,
+        "Pedestrian_bev/hard_R40": 13.19791750029839,
+        "Pedestrian_image/easy_R40": 35.87246746821321,
+        "Pedestrian_image/moderate_R40": 34.78273456323949,
+        "Pedestrian_image/hard_R40": 33.71954343514187,
+        "Cyclist_aos/easy_R40": 38.939877921716906,
+        "Cyclist_aos/moderate_R40": 24.940061004627665,
+        "Cyclist_aos/hard_R40": 25.91738104967345,
+        "Cyclist_3d/easy_R40": 5.67479674796748,
+        "Cyclist_3d/moderate_R40": 6.7295972443031244,
+        "Cyclist_3d/hard_R40": 7.048076923076921,
+        "Cyclist_bev/easy_R40": 18.888888888888893,
+        "Cyclist_bev/moderate_R40": 17.767558528428097,
+        "Cyclist_bev/hard_R40": 18.52611940298507,
+        "Cyclist_image/easy_R40": 38.96542955689297,
+        "Cyclist_image/moderate_R40": 24.95854728252043,
+        "Cyclist_image/hard_R40": 25.93435415273277
+      }
+    ],
+    "simplified_metrics": {
+      "Car": {
+        "AP": 0.5681243223707987,
+        "AOS": 0.5677860969050311,
+        "Precision": 0.9055299539170507,
+        "Recall": 0.41390205371248023,
+        "F1": 0.5681243223707987,
+        "TP": 786,
+        "FP": 82,
+        "FN": 1113,
+        "avg_IoU": 0.5344360388713469
+      },
+      "Pedestrian": {
+        "AP": 0.5774378585086042,
+        "AOS": 0.5728249131682122,
+        "Precision": 0.634453781512605,
+        "Recall": 0.5298245614035088,
+        "F1": 0.5774378585086042,
+        "TP": 151,
+        "FP": 87,
+        "FN": 134,
+        "avg_IoU": 0.4620191502453822
+      },
+      "Cyclist": {
+        "AP": 0.4,
+        "AOS": 0.3997727072441097,
+        "Precision": 0.390625,
+        "Recall": 0.4098360655737705,
+        "F1": 0.4,
+        "TP": 50,
+        "FP": 78,
+        "FN": 72,
+        "avg_IoU": 0.4517756238681103
+      }
+    }
+  },
+  "sample_count": 500,
+  "class_names": [
+    "Car",
+    "Pedestrian",
+    "Cyclist"
+  ]
+}
